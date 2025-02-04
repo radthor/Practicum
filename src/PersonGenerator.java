@@ -19,12 +19,7 @@ public class PersonGenerator {
         Path file = Paths.get(workingDirectory.getPath() + "\\src\\personData.txt");
 
         boolean done = false;
-        /* a. ID (a string)
-           b. FirstName
-           C.LastName
-           D. Title (a string like Mr., Mrs, Ms., Dr.)
-           e. YearOfBirth (an int)
-         */
+
         String personRec = "";
         String ID = "";
         String firstName = "";
